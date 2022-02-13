@@ -1,0 +1,82 @@
+.user-ticket-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user-ticket-code-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 75%;
+  box-shadow: 0 0.3rem 0.8rem rgb(0 0 0 / 24%);
+  border-radius: 20px;
+}
+
+.user-ticket-information-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 20px;
+  width: 75%;
+  box-shadow: 0 0.3rem 0.8rem rgb(0 0 0 / 24%);
+  border-radius: 20px;
+}
+.user-ticket-left-area {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #575454;
+}
+.user-ticket-right-area {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.user-ticket-left-area span {
+  font-weight: bold;
+  color: #575454;
+}
+.user-ticket-right-area span {
+  font-weight: bold;
+  color: #575454;
+}
+.user-ticket-left-area > div,
+.user-ticket-right-area > div {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  align-items: center;
+  gap: 20px;
+}
+.user-ticket-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #575454;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.succsess-logo {
+  display: flex;
+  align-items: center;
+}
+.succsess-logo img {
+  height: 75px;
+}
+
+@media only screen and (max-width: 968px) {
+  .user-ticket-information-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 75%;
+    box-shadow: 0 0.3rem 0.8rem rgb(0 0 0 / 24%);
+    border-radius: 20px;
+  }
+}

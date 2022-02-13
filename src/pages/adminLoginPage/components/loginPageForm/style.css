@@ -1,0 +1,47 @@
+.admin-page-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .admin-page-title {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #141607;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .buton1{
+    margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+  }
+  .buttons1 {
+    color: white;
+    background-color: #141607;
+    font-size: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 75%;
+    
+  }
+  .buton1 button:hover  {
+    color: #141607;
+    background-color: white;
+    border: 1px solid #141607;
+  
+  }
+  .login-form-area{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+ 

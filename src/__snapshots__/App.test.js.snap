@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Page Elements control 1`] = `
+<button
+  class="buttons"
+>
+  Başvuru Sorgula
+</button>
+`;
+
+exports[`Error Page Elements control 2`] = `
+<h4>
+  Girilen Başvuru Kodu Bulunamadı.
+</h4>
+`;
+
+exports[`Error Page Elements control 3`] = `[Function]`;
+
+exports[`Home Page Buttons Control 1`] = `
+<button
+  class="buttons"
+>
+  Yeni Başvuru
+</button>
+`;
+
+exports[`Home Page Buttons Control 2`] = `[Function]`;
+
+exports[`Tickets Page Elements Control 1`] = `
+<h1>
+  Başvuru Yönetimi
+</h1>
+`;
+
+exports[`Tickets Page Elements Control 2`] = `[Function]`;
